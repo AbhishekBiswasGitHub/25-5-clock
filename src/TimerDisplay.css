@@ -1,0 +1,24 @@
+@font-face {
+  font-family: digital-7;
+  src: url(./assets/fonts/digital-7.ttf);
+}
+
+#timer-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+#timer-label {
+  padding: 1rem 0;
+
+  font-size: 3rem;
+}
+
+#time-left {
+  font-family: digital-7;
+  font-size: 8rem;
+}
