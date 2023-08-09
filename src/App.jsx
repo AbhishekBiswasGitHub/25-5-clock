@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import Settings from "./Settings";
+import Timer from "./Timer";
 
 import "./App.css";
 
@@ -37,6 +38,12 @@ const App = () => {
       <Settings
         settings={settings}
         active={active}
+      />
+      <Timer
+        active={active}
+        setActive={setActive}
+        settings={settings}
+        reset={reset}
       />
     </div>
   );
