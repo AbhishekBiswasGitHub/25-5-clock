@@ -1,0 +1,31 @@
+#timer-controls {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  width: 100%;
+
+  padding: 1rem 0;
+
+  border-radius: 2rem;
+
+  text-align: center;
+}
+
+#start_stop {
+  grid-column: 2;
+
+  font-size: 5rem;
+
+  cursor: pointer;
+}
+
+#reset {
+  grid-column: 3;
+
+  font-size: 3rem;
+
+  cursor: pointer;
+}
