@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
 
+import Settings from "./Settings";
+
 import "./App.css";
 
 const App = () => {
@@ -30,7 +32,14 @@ const App = () => {
     [sessionTime, breakTime]
   );
 
-  return <div id="container"></div>;
+  return (
+    <div id="container">
+      <Settings
+        settings={settings}
+        active={active}
+      />
+    </div>
+  );
 };
 
 export default App;
