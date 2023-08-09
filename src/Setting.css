@@ -1,0 +1,51 @@
+@font-face {
+  font-family: digital-7;
+  src: url(./assets/fonts/digital-7.ttf);
+}
+
+.setting-container {
+  border-radius: 2rem;
+
+  background-color: #333;
+}
+
+.setting-label {
+  width: 100%;
+
+  padding: 0.5rem 0;
+
+  font-size: 2rem;
+  text-align: center;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20rem;
+
+  padding-bottom: 0.5rem;
+}
+
+.setting-decrement,
+.setting-increment {
+  font-size: 4rem;
+
+  transition: transform 50ms linear;
+
+  cursor: pointer;
+}
+
+.setting-decrement:hover,
+.setting-increment:hover {
+  transform: scale(1.2);
+}
+
+.setting-length {
+  width: 10rem;
+
+  font-family: digital-7;
+  font-size: 5rem;
+  text-align: center;
+}
